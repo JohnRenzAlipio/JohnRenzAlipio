@@ -81,7 +81,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('file:///C:/Users/asus/Downloads/background.png') no-repeat;
+    background: url('https://raw.githubusercontent.com/JohnRenzAlipio/JohnRenzAlipio/main/Images/background.png') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
