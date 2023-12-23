@@ -1,56 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <title>john Renz Alipio Personal Profile </title>
-    <link rel="icon" type="Logo" href="Logo/Screenshot 2023-12-22 143444.png">
-</head>
-<body>
-    <header>
-        <a class="logo">Welcome</a>
-        <nav class="navbar">
+    <head>
+        <title>john Renz Alipio Personal Profile </title>
+        <link rel="stylesheet" type="text/css" href="Style Main Home Page.CSS"
+    </head>
+    <body>
+        <header>
+            <a class="logo">Welcome</a>
+            <nav class="navbar">
             <ul>
-                <li><a href="HomePage/Home Page.html" target="_blank">Home Page</a></li>
-                <li><a href="https://johnrenzalipio.github.io/JohnRenzAlipio/IT%20BLOG/IT%20BLOG%20Home.html" target="_blank">IT Blog</a></li>
-                <li><a href="https://johnrenzalipio.github.io/JohnRenzAlipio/Flex%20Page/Flex%20Page.html" target="_blank">Flex page</a></li>
-                <li><a href="https://johnrenzalipio.github.io/JohnRenzAlipio/Picture/Profile%20picture.html" target="_blank">picture</a></li>
+                <a href="HomePage/Home Page.html" target="_blank">Home Page </a></li>
+                <a href="https://johnrenzalipio.github.io/JohnRenzAlipio/IT%20BLOG/IT%20BLOG%20Home.html" target="_blank">IT Blog</a></li>
+                <a href="https://johnrenzalipio.github.io/JohnRenzAlipio/Flex%20Page/Flex%20Page.html" target="_blank">Flex page</a></li>
+                <a href="https://johnrenzalipio.github.io/JohnRenzAlipio/Picture/Profile%20picture.html" target="_blank">picture</a></li>
             </ul>
-        </nav>
-    </header>
-    <section>
-        <img src="Images/stars.png" id="stars">
-        <img src="Images/moon.png" id="moon">
-        <img src="Images/mountains_behind.png" id="mountains_behind">
-        <h2 id="text">Welcome to my<span style="color:rgb(75, 75, 185);"> Website</span></h2>
-        <img src="Images/mountains_front.png" id="mountains_front">
-    </section>
-    <div class="sec" id="sec"> 
-        <h4>Enjoy...</h4>
-        <p><strong>Better if full Screen</strong></p>
-        <ul style="color:#d8f3f3"></ul>
-    </div>
-    <script>
-        let stars = document.getElementById('stars');
-        let moon = document.getElementById('moon');
-        let mountains_behind = document.getElementById('mountains_behind');
-        let text = document.getElementById('text');
-        let btn = document.getElementById('btn');
-        let mountains_front = document.getElementById('mountains_front');
-        let header = document.querySelector('header');
+        </header>
+        <section>
+            <img src="Images/stars.png" id="stars">
+            <img src="Images/moon.png" id="moon">
+            <img src="Images/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Welcome to my<span style="color:rgb(75, 75, 185);"> Website</h2></span>
+            <img src="Images/mountains_front.png" id="mountains_front">
+            
+        </section>
+        <div class="sec" id="sec"> 
+            <h4>Enjoy...</h4>
+            
+            <p><strong>Better if full Screen</strong></p>
+            <ul><pan style="color:#d8f3f3">
+        <script>
+    let stars = document.getElementById('stars');
+    let moon = document.getElementById('moon');
+    let mountains_behind = document.getElementById('mountains_behind');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let mountains_front = document.getElementById('mountains_front');
+    let header = document.querySelector('header');
 
-        window.addEventListener('scroll', function(){
-            let value = window.scrollY;
-            stars.style.left = value * 0.25 + 'px';
-            moon.style.top = value * 1.5 + 'px';
-            mountains_behind.style.top = value * 1.5 + 'px';
-            mountains_front.style.top = value * 0.1 + 'px';
-            text.style.marginRight = value * 5 + 'px';
-            text.style.marginTop = value * 1.0 + 'px';
-            btn.style.marginTop = value * 1.5 + 'px';
-            header.style.top = value * 0.5 + 'px';
-        });
-    </script>
-    <footer>
-        <p>&copy; 2023 Modern Website. All rights reserved</p>
-    </footer>
-</body>
+    window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.5 + 'px';
+        mountains_behind.style.top = value * 1.5 + 'px';
+        mountains_front.style.top = value * 0.1 + 'px';
+        text.style.marginRight = value * 5 + 'px';
+        text.style.marginTop = value * 1.0 + 'px';
+        btn.style.marginTop = value * 1.5 + 'px';
+        header.style.top = value * 0.5 + 'px';
+    });
+</script>
+
+<footer>
+    <p>&copy; 2023 Modern Website. All rights reserved</p>
+ </footer>
+
+    </body>
 </html>
+
+
+
